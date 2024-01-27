@@ -1,0 +1,209 @@
+.section1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    z-index: 3;
+    background-color: #c6bbbb;
+    /* background-image: url('../assets/back.jpg'); */
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    position: relative;
+    overflow: hidden;
+
+    box-shadow: 10px -200px 99px -164px rgba(0, 0, 0, 1) inset;
+        -webkit-box-shadow: 10px -200px 99px -164px rgba(0, 0, 0, 1) inset;
+        -moz-box-shadow: 10px -200px 99px -164px rgba(0, 0, 0, 1) inset;
+
+}
+.vignette {
+    box-shadow: inset 0px 0px 85px rgba(0, 0, 0, 0.4);
+}
+#vid {
+    position: absolute;
+    background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top center;
+        overflow-x: hidden;
+    /* height: 100%; */
+    /* width: 100%; */
+    z-index: -1;
+    
+
+}
+.shadow{
+background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 5%, rgba(0, 143, 129, 0.006127450980392135) 29%);
+    
+    
+    width: 100vw;
+    height: 40vh;
+    /* z-index:66 ; */
+    position: absolute;
+    bottom: -1%;
+}
+.sectitle {
+    width: 100%;
+}
+
+.sectitle1 {
+    color: #FFF;
+    text-align: center;
+    font-family: "Magison";
+
+    font-size: 79px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.sec1desc {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0px 50px;
+
+}
+
+.vision {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.mission {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.visionhead {
+    color: #E6E1E1;
+
+    font-family: "Magison";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+    /* 150% */
+}
+
+.visionpara {
+    width: 341px;
+    height: 136px;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 17px;
+    /* 141.667% */
+}
+
+.missionhead {
+    color: #E6E1E1;
+    text-align: right;
+    font-family: "Magison";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+    /* 150% */
+}
+
+.missionpara {
+    width: 341px;
+    height: 136px;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    text-align: right;
+    line-height: 17px;
+    /* 141.667% */
+}
+
+.sec1button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    z-index: 1;
+}
+
+.sec1btn {
+    width: 184px;
+    height: 41.267px;
+    flex-shrink: 0;
+    border-radius: 43px;
+    background: #35B94E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btntext {
+    margin-bottom: 0px;
+    color: #ffffff;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    /* 21px */
+}
+
+@media (max-width:768px) {
+    .section1 {
+        height: 100vh;
+        /* background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.653), rgba(0, 0, 0, 0.3)), url('../assets/back.jpg'); */
+    }
+
+    .sec1desc {
+        flex-direction: column;
+    }
+
+    .sectitle1 {
+        margin-top: 10%;
+        font-size: 50px;
+        padding: 20px;
+    }
+
+    .mission {
+        display: none;
+    }
+
+    .vision p {
+        margin-bottom: 0px;
+    }
+
+    .mission p {
+        margin-bottom: 0px;
+    }
+
+    .visionpara {
+        font-size: 10px;
+    }
+
+    .visionhead {
+        font-size: 24px;
+    }
+
+    .missionpara {
+        font-size: 10px;
+    }
+
+    .missionhead {
+        font-size: 24px;
+
+    }
+}

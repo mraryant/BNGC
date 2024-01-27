@@ -1,0 +1,14 @@
+:root {
+  font-family:'Magison','Manrope', Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #000000;
+
+}
+
+
+
+body{
+  background-color: #000000;
+  overflow-x: hidden;
+}

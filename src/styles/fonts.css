@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Quenko';
+    src: local('Quenko'), local('Quenko-Regular'),
+        
+         url('../fonts/Quenko.woff') format('woff');
+   
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Magison';
+    src: local('Magison'), local('Magison-Regular'),
+        
+         url('../fonts/Magison.woff') format('woff');
+   
+    font-style: normal;
+  }
