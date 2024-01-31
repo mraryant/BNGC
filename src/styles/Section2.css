@@ -167,12 +167,12 @@ z-index: 1;
     }
     .s2spin{
         position: relative;
-        height: 35vmax;
+        height: 30vmax;
     }
     .s2coin{
         position: absolute;
-        width: 100px;
-        height: 100px;
+        width: 90px;
+        height: 90px;
        
     }
     .s2para{
