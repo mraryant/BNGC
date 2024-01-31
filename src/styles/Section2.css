@@ -155,7 +155,7 @@ z-index: 1;
         }
     .sec2main{
         height: 100%;
-        flex-direction: column-reverse;
+        flex-direction: column;
         padding: 30px 0px;
     }
     .s2left{
@@ -167,12 +167,12 @@ z-index: 1;
     }
     .s2spin{
         position: relative;
-        height: 50vmax;
+        height: 35vmax;
     }
     .s2coin{
         position: absolute;
-        width: 140px;
-        height: 140px;
+        width: 100px;
+        height: 100px;
        
     }
     .s2para{
