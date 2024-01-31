@@ -54,27 +54,27 @@ const Navbar = () => {
 
                             className="navbar-nav me-auto mb-2 mb-lg-0 ngflex" >
                             <li className="nav-item">
-                                <a className="nav-link active" style={{color:"white" , fontFamily: 'Manrope',}} aria-current="page" href="#">Home</a>
+                                <a className="nav-link active" style={{color:"white" , fontFamily:'revert',}} aria-current="page" href="#">Home</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" style={{color:"white" , fontFamily: 'Manrope',}} href="#about-main">About</a>
+                                <a className="nav-link" style={{color:"white" , fontFamily:'revert',}} href="#about-main">About</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" style={{color:"white" , fontFamily: 'Manrope'}} href="#usecase">UseCase</a>
+                                <a className="nav-link" style={{color:"white" , fontFamily:'revert'}} href="#usecase">UseCase</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" style={{color:"white" , fontFamily: 'Manrope'}} href="#tokenomics">Tokenomics</a>
+                                <a className="nav-link" style={{color:"white" , fontFamily:'revert'}} href="#tokenomics">Tokenomics</a>
                             </li>
                            
                           
                             <li className="nav-item">
-                                <a className="nav-link" style={{color:"white" , fontFamily: 'Manrope'}} href="">Staking</a>
+                                <a className="nav-link" style={{color:"white" , fontFamily:'revert'}} href="">Staking</a>
                             </li>
                         </ul>
                         <form className="d-flex ngflex">
 
                             
-                            <button className="button-87 btn2  " style={{ width: "100%", fontSize: 16 }}> <a style={{ textDecoration: 'none', color: 'white' }} target="block" href="https://presale.bngcglobal.com/">Buy Tokens </a> </button>
+                            <button className="btn  "  > <a style={{ textDecoration: 'none', color: 'white' }} target="block" href="https://presale.bngcglobal.com/">Buy Tokens </a> </button>
                         </form>
                     </div>
                 </div>

@@ -1,4 +1,4 @@
-.s5main{
+.s5main {
     width: 100%;
     height: 100%;
     background-color: #000000;
@@ -9,233 +9,356 @@
     align-items: center;
     gap: 40px;
     overflow-x: hidden;
- }
-
-.s5head{
-    color: #FFF;
-text-align: center;
-font-family: Magison;
-font-size: 60px;
-font-style: normal;
-font-weight: 400;
-line-height: 48px; /* 80% */
-}
-.color1{
-    width: 27px;
-height: 13px;
-background-color: #087438;
-border-radius: 20px;
 }
 
-.color2{
-    width: 27px;
-height: 13px;
-background-color: #35B94E;
-border-radius: 20px;
-}
-.color3{
-    width: 27px;
-height: 13px;
-background-color: #c5910c;
-border-radius: 20px;
-}
-.color4{
-    width: 27px;
-height: 13px;
-background-color: #EBC500;
-border-radius: 20px;
-}
-.color5{
-    width: 27px;
-height: 13px;
-background-color: #ECEFEE;
-border-radius: 20px;
-}
-.c{
+.s5head {
     color: #FFF;
-font-family: "Manrope";
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 23px; /* 143.75% */
+    text-align: center;
+    font-family: Magison;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+    /* 80% */
 }
-.indicator{
+
+.color1 {
+    width: 27px;
+    height: 13px;
+    background-color: #087438;
+    border-radius: 20px;
+}
+
+.color2 {
+    width: 27px;
+    height: 13px;
+    background-color: #35B94E;
+    border-radius: 20px;
+}
+
+.color3 {
+    width: 27px;
+    height: 13px;
+    background-color: #c5910c;
+    border-radius: 20px;
+}
+
+.color4 {
+    width: 27px;
+    height: 13px;
+    background-color: #EBC500;
+    border-radius: 20px;
+}
+
+.color5 {
+    width: 27px;
+    height: 13px;
+    background-color: #ECEFEE;
+    border-radius: 20px;
+}
+
+.c {
+    color: #FFF;
+    font-family: "Manrope";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+    /* 143.75% */
+}
+
+.indicator {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 25px;
 }
-.i{
+
+.i {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 5px;
 }
-.i p{
+
+.i p {
     margin-bottom: 0px;
 }
 
-.toke{
+.toke {
     display: flex;
     width: 100%;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
-.tokeleft{
+
+.tokeleft {
     width: 50%;
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
-.tokeright{
+
+.tokeright {
     width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.tokediv{
+
+.tokediv {
+  --border-color: linear-gradient(-45deg, #00FF47, #40ab2d, #359d08);
     display: flex;
     flex-direction: row;
     justify-content: start;
     gap: 20px;
-    clip-path: polygon(0% 0%, 100% 0%, 95% 100%, 0% 100%);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, .6);
+    border: 2px solid  rgb(4, 239, 165);
     padding: 20px 10px;
-    background-color: #35B94E;
-    
+    background:linear-gradient(-45deg, #070b08, #2e6936, #040604);
+    --curve-size: 1em;
+     clip-path: polygon(
+      /* Top-left */
+      0% var(--curve-size),
+
+      var(--curve-size) 0,
+      /* top-right */
+      100% 0,
+      100% calc(100% - var(--curve-size)),
+
+      /* bottom-right 1 */
+      calc(100% - var(--curve-size)) 100%,
+      /* bottom-right 2 */
+      0 100%);
+ 
+
 }
-.tokename{
+
+.tokename {
     color: #FFF;
     font-family: "Manrope";
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     width: 127px;
-    line-height: 23px; /* 104.545% */
-}
-.tokedesc{
-    color: #FFF;
-font-family: "Manrope";
-font-size: 20px;
-font-style: normal;
-font-weight: 500;
-line-height: 23px; /* 104.545% */
+    line-height: 23px;
+    /* 104.545% */
 }
 
-.tokediv p{
+.tokedesc {
+    color: #FFF;
+    font-family: "Manrope";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 23px;
+    /* 104.545% */
+}
+
+.tokediv p {
     margin-bottom: 0px;
 }
 
-@media (max-width:768px){
-    .s5main{
+
+#parteners-main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    /* overflow: auto; */
+    /* background-color: rgb(211, 210, 209); */
+    padding: 10vmax 0 10vmax 0;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+#H1 {
+    color: white;
+    font-weight: 600;
+    text-align: center;
+     font-family: "Magison";
+}
+#parteners-main2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    /* overflow: auto; */
+    /* background-color: rgb(211, 210, 209); */
+    /* padding: 10vmax 0 10vmax 0; */
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+#parteners-main2>img {
+    width: 15vmax;
+}
+
+#vr-section{
+    width: 80vw;
+    min-height: 50vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    
+}
+#vr-content>h1{
+    background: linear-gradient(156deg, #73A0E4 19.27%, #7CFF91 56.31%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    /* color: white; */
+    font-family: "Magison";
+    font-weight: 600;
+}
+#vr-content>p{
+   color: rgb(177, 176, 176);
+}
+#vr-section>img {
+    height: 100%;
+
+}
+
+@media (max-width:768px) {
+
+    #vr-section {
+             flex-direction: column;
+    
+        }
+    #vr-section>img {
+            /* height: 60%; */
+            width: 80%;
+        }
+    .s5main {
         padding: 60px 10px;
         gap: 40px;
     }
-    .indicator{
-flex-direction: column;
-gap: 5px;
-justify-content: start;
-    align-items: start;
+
+    .indicator {
+        flex-direction: column;
+        gap: 5px;
+        justify-content: start;
+        align-items: start;
     }
-    .toke{
+
+    .toke {
         flex-direction: column-reverse;
         gap: 20px;
     }
-    .tokeleft{
+
+    .tokeleft {
         width: 100%;
     }
-    .tokeright{
+
+    .tokeright {
         width: 100%;
     }
-    .tokeimg{
+
+    .tokeimg {
         width: 100%;
         height: 100%;
     }
-    .c{
-      
-    font-size: 10px;
-    margin-bottom: 0px;
-  
+
+    .c {
+
+        font-size: 10px;
+        margin-bottom: 0px;
+
     }
-    .tokediv{
+
+    .tokediv {
         display: flex;
         flex-direction: row;
         justify-content: start;
         gap: 20px;
-        clip-path: polygon(0% 0%, 100% 0%, 95% 100%, 0% 100%);
+        /* clip-path: polygon(0% 0%, 100% 0%, 95% 100%, 0% 100%); */
         padding: 10px 10px;
         background-color: #35B94E;
-        
+
     }
-    .tokename{
+
+    .tokename {
         color: #FFF;
         font-family: "Manrope";
         font-size: 12px;
         font-style: normal;
         font-weight: 400;
         width: 87px;
-        line-height: 23px; /* 104.545% */
+        line-height: 23px;
+        /* 104.545% */
     }
-    .tokedesc{
+
+    .tokedesc {
         color: #FFF;
-    font-family: "Manrope";
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 23px; /* 104.545% */
+        font-family: "Manrope";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 23px;
+        /* 104.545% */
     }
 }
 
 @media (min-width:768px) and (max-width:1302px) {
-    .s5main{
+    .s5main {
         padding: 60px 60px;
         gap: 40px;
     }
-   
-    
-    .tokeleft{
+
+
+    .tokeleft {
         width: 100%;
     }
-    .tokeright{
+
+    .tokeright {
         width: 100%;
     }
-    .tokeimg{
+
+    .tokeimg {
         width: 100%;
         height: 100%;
     }
-    .c{
-      
-    font-size: 10px;
-    margin-bottom: 0px;
-  
+
+    .c {
+
+        font-size: 10px;
+        margin-bottom: 0px;
+
     }
-    .tokediv{
+
+    .tokediv {
         display: flex;
         flex-direction: row;
         justify-content: start;
         gap: 20px;
-        clip-path: polygon(0% 0%, 100% 0%, 95% 100%, 0% 100%);
+        /* clip-path: polygon(0% 0%, 100% 0%, 95% 100%, 0% 100%); */
         padding: 10px 10px;
         background-color: #35B94E;
-        
+
     }
-    .tokename{
+
+    .tokename {
         color: #FFF;
         font-family: "Manrope";
         font-size: 12px;
         font-style: normal;
         font-weight: 400;
         width: 87px;
-        line-height: 23px; /* 104.545% */
+        line-height: 23px;
+        /* 104.545% */
     }
-    .tokedesc{
+
+    .tokedesc {
         color: #FFF;
-    font-family: "Manrope";
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 23px; /* 104.545% */
+        font-family: "Manrope";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 23px;
+        /* 104.545% */
     }
 }

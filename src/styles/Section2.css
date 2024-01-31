@@ -14,7 +14,7 @@
     display: flex;
     flex-direction: column;
     justify-content: start;
-    gap: 20px;
+    gap: 15px;
     
 }
 .s2right{
@@ -27,13 +27,13 @@
 }
 .s2spin{
     position: relative;
-    width: 363.495px;
-height: 376px;
+    /* width: 363.495px; */
+    height: 45vmax;
 }
 .s2coin{
     position: absolute;
-    width: 219px;
-    height: 219px;
+    /* width: 225px; */
+    height: 15vmax;
    
 }
 .s2head{
@@ -49,7 +49,7 @@ height: 376px;
 .s2para{
     color: #B6B6B6;
     font-family: "Manrope";
-    font-size: 16px;
+    font-size: 17px;
     font-style: normal;
     font-weight: 500;
     line-height: 24px; /* 150% */
@@ -66,7 +66,7 @@ height: 376px;
 .smallpara{
     color: #B6B6B6;
     font-family: "Manrope";
-    font-size: 16px;
+    font-size: 17px;
     font-style: normal;
     font-weight: 500;
     line-height: 24px; /* 150% */
@@ -76,6 +76,53 @@ height: 376px;
 	-webkit-animation: rotate-center 30s linear infinite both;
 	        animation: rotate-center 30s linear infinite both;
 }
+
+#contract1{
+    height: 60vh;
+    width: 100vw;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    overflow: hidden;
+    background-size: cover;
+    position: relative;
+}
+#contract {
+    
+    margin-top: 3vmax;
+    margin-bottom: 6vmax;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#contract>h5 {
+z-index: 1;
+}
+#contract>h3 {
+    z-index: 1;
+    font-size: 2vmax;
+}
+#contract-button {
+    z-index: 1;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+#conV{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 100%;
+    background-position:  center;
+    width: 100%;
+    height: fit-content;
+    z-index: 1;
+}
+ 
 
 
  @-webkit-keyframes rotate-center {
@@ -101,9 +148,14 @@ height: 376px;
 
 
   @media (max-width: 768px){
+    #conV {
+          
+            width: fit-content;
+            
+        }
     .sec2main{
         height: 100%;
-        flex-direction: column;
+        flex-direction: column-reverse;
         padding: 30px 0px;
     }
     .s2left{
@@ -115,20 +167,19 @@ height: 376px;
     }
     .s2spin{
         position: relative;
-        width: 250px;
-    height: 250px;
+        height: 50vmax;
     }
     .s2coin{
         position: absolute;
-        width: 160px;
-        height: 160px;
+        width: 140px;
+        height: 140px;
        
     }
     .s2para{
-        font-size: 12px;
+        font-size: 15px;
     }
     .smallpara{
-        font-size: 12px;
+        font-size: 15px;
     }
   }
   
