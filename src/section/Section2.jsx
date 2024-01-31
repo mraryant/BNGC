@@ -75,10 +75,10 @@ const Section2 = () => {
           <h3 style={{ color: 'white' }}>{text}</h3>
           <div id="contract-button">
 
-            <button className="btn " style={{width:"210px"}} onClick={handleCopy}><span ><img src={Copy} style={{ width: 25, height: 25, marginRight: 15, }} alt="" />
+            <button className="btn " style={{width:"230px"}} onClick={handleCopy}><span ><img src={Copy} style={{ width: 25, height: 25, marginRight: 15, }} alt="" />
               Copy Address</span>
             </button>
-            <button className="btn" style={{ width: "210px" }} onClick={() => window.open('https://bscscan.com/address/0xc755377CD13ca4BedB87EED8D2C5105d46FFC388', '_blank')}><span ><img src={BSC} style={{ width: 25, height: 25, marginRight: 15, }} alt="" />
+            <button className="btn" style={{ width: "230px" }} onClick={() => window.open('https://bscscan.com/address/0xc755377CD13ca4BedB87EED8D2C5105d46FFC388', '_blank')}><span ><img src={BSC} style={{ width: 25, height: 25, marginRight: 15, }} alt="" />
               BSC SCAN</span>
             </button>
           </div>
