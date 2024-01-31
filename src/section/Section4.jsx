@@ -35,7 +35,7 @@ const Section4 = () => {
                                                 <div className="roadCard">
                                                         <div style={{ width: "50%", textAlign: "right" }}>
                                                                 <h3 id='rd-h3'>PHASE 2</h3>
-                                                                <p>Listings on TopExchanges</p>
+                                                                <p style={{  textWrap: "wrap" }}  >Listings on TopExchanges</p>
                                                         </div>
                                                         <div style={{ width: "50%", textAlign: "left" }}>
 

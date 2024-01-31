@@ -67,6 +67,18 @@ overflow: hidden;
    justify-content: space-between;
    align-items: center;
 }
+.roadCard:nth-child(even)>div>p {
+   align-self: self-end; 
+   width: 70%;
+}
+.roadCard:nth-child(odd)>div>p {
+   align-self: self-end; 
+   width: 80%;
+}
+.roadCard:nth-child(even)>div {
+    display: flex;
+    flex-direction: column;
+}
 #rd-percent{
    font-size: 50px;
    font-weight: 600;
