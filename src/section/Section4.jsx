@@ -89,7 +89,7 @@ const Section4 = () => {
                                                         </div>
                                                         <div style={{ width: "50%", textAlign: "left" }}>
                                                                 <h3 id='rd-h3' >PHASE 7</h3>
-                                                                <p style={{ textWrap: "wrap" }} >Listings on Top Exchanges</p>
+                                                                <p style={{ textWrap: "wrap" }} >NFT Marketplace Launch</p>
                                                         </div>
                                                 </div>
                                                 <div className="roadCard">
